@@ -11,7 +11,7 @@
                 </a>
             </router-link>
             <router-link 
-                to="/usuarios" 
+                to="/usuarios/10"
                 tag="li"
                 active-class="active"
             >
