@@ -11,12 +11,12 @@
                 </a>
             </router-link>
             <router-link 
-                to="/usuarios/10"
+                to="/usuario"
                 tag="li"
                 active-class="active"
             >
                 <a>
-                    Usuarios
+                    Usuario
                 </a>
             </router-link>
         </ul>
