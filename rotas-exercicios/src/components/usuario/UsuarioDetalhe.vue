@@ -2,10 +2,12 @@
     <div class="usuario-detalhe">
         <h3>Usuario Detalhe</h3>
         <p><strong>Codigo: </strong> {{ id }}</p>
+        <!-- :to="`/usuario/${id}/editar`" -->
         <router-link 
             tag="button" 
             primario
-            :to="`/usuario/${id}/editar`"
+            :to="{name: 'usuarioEditar', params: {id},
+                query: {completo: true, lingua: 'pt'},}"
         >
             Editar
         </router-link>
